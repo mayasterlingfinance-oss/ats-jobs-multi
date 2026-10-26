@@ -1,0 +1,6 @@
+{"actorSpecification":1,"fields":{"$schema":"http://json-schema.org/draft-07/schema#","type":"object","additionalProperties":true,"properties":{
+"ats":{"type":"string","description":"Source ATS"},"company":{"type":"string","description":"Company board slug"},"title":{"type":"string","description":"Job title"},
+"url":{"type":"string","description":"Job posting URL"},"location":{"type":"string","description":"Location as published"},"postedAt":{"type":"string","description":"Publish date as given by the ATS"},
+"error":{"type":"string","description":"Set when the input could not be resolved (not charged)"}}},
+"views":{"overview":{"title":"Overview","transformation":{"fields":["ats","company","title","location","department","employmentType","remote","postedAt","url","error"]},
+"display":{"component":"table","properties":{"url":{"format":"link"}}}}}}

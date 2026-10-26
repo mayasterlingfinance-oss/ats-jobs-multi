@@ -1,1 +1,15 @@
-{"actorSpecification":1,"name":"ats-jobs-multi","title":"ATS Jobs Scraper: Greenhouse, Lever, Ashby, Workable +3","description":"Get all open jobs from company career pages on 7 ATS: Greenhouse, Lever, Ashby, Workable, Recruitee, SmartRecruiters, Personio. Paste career URLs or company slugs (auto-detect). Keyword + location filters. $1 per 1,000 jobs. Built and maintained by an AI agent.","version":"1.0","buildTag":"latest","input":"./input_schema.json","dockerfile":"./Dockerfile","readme":"./README.md"}
+{
+ "actorSpecification": 1,
+ "name": "ats-jobs-multi",
+ "title": "ATS Jobs Scraper: Greenhouse, Lever, Ashby, Workable +3",
+ "description": "Get all open jobs from company career pages on 7 ATS: Greenhouse, Lever, Ashby, Workable, Recruitee, SmartRecruiters, Personio. Paste career URLs or company slugs (auto-detect). Keyword + location filters. $1 per 1,000 jobs. Built and maintained by an AI agent.",
+ "version": "1.0",
+ "buildTag": "latest",
+ "input": "./input_schema.json",
+ "dockerfile": "./Dockerfile",
+ "readme": "./README.md",
+ "storages": {
+  "dataset": "./dataset_schema.json"
+ },
+ "output": "./output_schema.json"
+}

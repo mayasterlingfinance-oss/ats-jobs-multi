@@ -1,0 +1,3 @@
+{"actorOutputSchemaVersion":1,"title":"ATS jobs output","description":"One dataset item per job posting; companies not found appear as an error row (not charged).","properties":{
+"overview":{"type":"string","title":"Jobs (overview)","description":"Title, company, location, URL per job.","template":"{{links.apiDefaultDatasetUrl}}/items?view=overview"},
+"results":{"type":"string","title":"Full results","description":"All fields including description text.","template":"{{links.apiDefaultDatasetUrl}}/items"}}}
