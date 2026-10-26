@@ -3,5 +3,5 @@
 "keywords":{"title":"Title keywords (any)","type":"array","editor":"stringList","description":"Keep jobs whose title contains any keyword (case-insensitive). Empty = all."},
 "locationContains":{"title":"Location contains","type":"string","editor":"textfield","description":"e.g. Berlin, Remote, United States"},
 "maxJobsPerCompany":{"title":"Max jobs per company","type":"integer","minimum":0,"default":0,"description":"0 = no limit"},
-"includeDescription":{"title":"Include description text","type":"boolean","default":true}
+"includeDescription":{"title":"Include description text","type":"boolean","default":true,"description":"Add plain-text job description (where the ATS publishes it)."}
 },"required":["companies"]}
