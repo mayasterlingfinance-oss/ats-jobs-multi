@@ -1,0 +1,7 @@
+{"title":"Multi-ATS Jobs","type":"object","schemaVersion":1,"properties":{
+"companies":{"title":"Companies (career URLs or slugs)","type":"array","editor":"stringList","description":"Career page URLs (e.g. https://boards.greenhouse.io/airbnb, https://jobs.lever.co/spotify, https://jobs.ashbyhq.com/openai, https://bunq.recruitee.com) or bare slugs (tries each ATS).","prefill":["https://boards.greenhouse.io/airbnb","https://jobs.ashbyhq.com/openai","spotify"]},
+"keywords":{"title":"Title keywords (any)","type":"array","editor":"stringList","description":"Keep jobs whose title contains any keyword (case-insensitive). Empty = all."},
+"locationContains":{"title":"Location contains","type":"string","editor":"textfield","description":"e.g. Berlin, Remote, United States"},
+"maxJobsPerCompany":{"title":"Max jobs per company","type":"integer","minimum":0,"default":0,"description":"0 = no limit"},
+"includeDescription":{"title":"Include description text","type":"boolean","default":true}
+},"required":["companies"]}
